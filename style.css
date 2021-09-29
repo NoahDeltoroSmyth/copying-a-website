@@ -1,0 +1,45 @@
+#top-bar {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    border-bottom: purple solid 2px;
+}
+
+#top-bar div {
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 150px;
+}
+
+nav {
+    display: flex;
+    padding: 20px;
+}
+
+nav div {
+    margin-right: 10px;
+}
+
+.nav-link-home {
+    background-color: purple;
+    color: white;
+}
+main {
+    display: grid;
+    grid-template-columns: 640px 1fr 1fr;
+    grid-template-rows: 335px 335px;
+    grid-template-areas: 
+        "big story1 story2"
+        "big story3 story4"
+    ;
+}
+
+#big {
+    grid-area: big;
+}
